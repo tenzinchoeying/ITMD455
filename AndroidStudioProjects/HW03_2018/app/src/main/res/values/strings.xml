@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HW03</string>
+    <string name="temperature_convertor">Temperature Convertor</string>
+    <string name="_0f">0F</string>
+    <string name="textview">TextView</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+    <string name="celsius">Celsius:</string>
+    <string name="_200f">200F</string>
+    <string name="todo">TODO</string>
+    <string name="spring">spring</string>
+    <string name="summer">summer</string>
+    <string name="winter">winter</string>
+</resources>

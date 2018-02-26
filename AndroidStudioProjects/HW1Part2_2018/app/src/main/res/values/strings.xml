@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HW1 Part2</string>
+    <string name="asa">ASA</string>
+    <string name="star">star</string>
+    <string name="phone_image">phone_image</string>
+    <string name="email_image">email_image</string>
+    <string name="masterofweb_asaiit_org">masterofweb@asaiit.org</string>
+    <string name="work">Work</string>
+    <string name="master">master</string>
+    <string name="cell">Cell</string>
+</resources>
