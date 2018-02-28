@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HW5</string>
+    <string name="back">Back</string>
+    <string name="hello_world_this_is_my_1st_ui_screen_main_activity">Hello World! This is my 1st UI Screen (Main Activity)</string>
+    <string name="start">Start</string>
+    <string name="slide_show_of_charities">Slide Show of Charities</string>
+    <string name="textview">TextView</string>
+    <string name="set_timer">set timer</string>
+    <string name="str_unicef" />
+    <string name="str_sos" />
+    <string name="str_tcv" />
+    <string name="str_blink" />
+    <string name="str_stc" />
+    <string name="str_machik" />
+    <string name="str_lc" />
+    <string name="str_hh" />
+    <string name="str_sb" />
+    <string name="str_who" />
+</resources>

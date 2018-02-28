@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="1000"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/who_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/who"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="World Health Organization"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_who"
+            android:src="@drawable/who"
+            android:scaleType = "fitXY"/>
+
+        <TextView
+            android:id="@+id/sb_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/sb"
+            android:textSize="20sp"
+            android:text="Shanti Bhavan India"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_sb"
+            android:scaleType = "fitXY"
+            android:src="@drawable/sb" />
+
+        <TextView
+            android:id="@+id/hh_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/hh"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="Habitat for Humanity"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_hh"
+            android:scaleType = "fitXY"
+            android:src="@drawable/hh" />
+
+        <TextView
+            android:id="@+id/lc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/lc"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="Lion's Club"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_lc"
+            android:scaleType = "fitXY"
+            android:src="@drawable/lc" />
+
+        <TextView
+            android:id="@+id/machik_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/machik"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="MACHIK Tibet"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_machik"
+            android:scaleType = "fitXY"
+            android:src="@drawable/machik" />
+
+        <TextView
+            android:id="@+id/stc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/stc"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="Save The Children"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_stc"
+            android:scaleType = "fitXY"
+            android:src="@drawable/stc" />
+
+        <TextView
+            android:id="@+id/blink_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/blink"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="BLINK Nepal"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_blink"
+            android:scaleType = "fitXY"
+            android:src="@drawable/blink" />
+
+        <TextView
+            android:id="@+id/unicef_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/unicef"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="UNICEF"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_unicef"
+            android:scaleType = "fitXY"
+            android:src="@drawable/unicef" />
+
+        <TextView
+            android:id="@+id/sos_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@drawable/sos"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="SOS Hermann Gmeiner"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_sos"
+            android:scaleType = "fitXY"
+            android:src="@drawable/sos" />
+
+        <TextView
+            android:id="@+id/tcv_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/flipper1"
+            android:layout_below="@drawable/tcv"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="Tibetan Children's Village"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/str_tcv"
+            android:scaleType = "fitXY"
+            android:src="@drawable/tcv" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/back"
+        android:name="button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:label="@string/app_name"
+        android:text="@string/back" />
+
+</RelativeLayout>
