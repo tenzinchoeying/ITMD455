@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mid18</string>
+    <string name="login">LOGIN</string>
+    <string name="abc123">abc123</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="todo">TODO</string>
+    <string name="to">TODO</string>
+    <string name="logout" />
+</resources>
